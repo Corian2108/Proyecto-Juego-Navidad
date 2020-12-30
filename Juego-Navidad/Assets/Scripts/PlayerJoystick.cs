@@ -6,11 +6,11 @@ public class PlayerJoystick : MonoBehaviour
 {
     public float speed;
     public FixedJoystick fixedJoystick;
-    public Rigidbody2D rb;
+    public Transform player;
 
-   /* public void FixedUpdate()
+    public void FixedUpdate() 
     {
-        Vector3 direction = Vector3.forward * fixedJoystick.Vertical + Vector3.right * fixedJoystick.Horizontal;
-        rb.AddForce(direction * speed * Time.fixedDeltaTime, ForceMode.VelocityChange);
-    }*/
+        transform.position = new Vector3 (player.position.x + fixedJoystick.Horizontal*speed, player.position.y + fixedJoystick.Vertical*speed, player.position.z);
+        //transform.rotation = new Vector3 (player.rotation.x * 0, player.rotation.y * 0, player.rotation.z * 0);
+    }
 }
