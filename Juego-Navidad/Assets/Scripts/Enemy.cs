@@ -7,6 +7,8 @@ public class Enemy : MonoBehaviour
     public float visionRadius;
     public float speed;
 
+    public Rigidbody2D enemyBody;
+
     GameObject player;
     Vector3 initialPosition;
     // Start is called before the first frame update
@@ -22,7 +24,14 @@ public class Enemy : MonoBehaviour
         Vector3 target = initialPosition;
 
         float distance = Vector3.Distance(player.transform.position, transform.position);
-        if(distance < visionRadius) target = player.transform.position;
+        if(distance < visionRadius) 
+        {
+            target = player.transform.position;
+            enemyBody.bodyType = RigidbodyType2D.Dynamic;
+        } else {
+            target = initialPosition;
+            enemyBody.bodyType = RigidbodyType2D.Kinematic;
+        }
 
         float fixedSpeed = speed*Time.deltaTime;
         transform.position = Vector3.MoveTowards(transform.position, target, fixedSpeed);
