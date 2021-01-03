@@ -11,6 +11,5 @@ public class PlayerJoystick : MonoBehaviour
     public void FixedUpdate() 
     {
         transform.position = new Vector3 (player.position.x + fixedJoystick.Horizontal*speed, player.position.y + fixedJoystick.Vertical*speed, player.position.z);
-        //transform.rotation = new Vector3 (player.rotation.x * 0, player.rotation.y * 0, player.rotation.z * 0);
     }
 }
