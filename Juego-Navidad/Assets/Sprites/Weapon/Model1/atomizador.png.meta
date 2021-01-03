@@ -1,25 +1,25 @@
 fileFormatVersion: 2
-guid: dcce49edeec3ff740934b08887280992
+guid: 08459ba790d08de4b8e85d1d14cae1a5
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: 6304780447706836541
-    second: PersonajeTercero_0
+      213: -310359708656228762
+    second: atomizador_0
   - first:
-      213: -8240477906173035842
-    second: PersonajeTercero_1
+      213: -3008506587935422296
+    second: atomizador_1
   - first:
-      213: -2319335602295776561
-    second: PersonajeTercero_2
+      213: 7854203425685165373
+    second: atomizador_2
   - first:
-      213: -5076664070034395238
-    second: PersonajeTercero_3
+      213: -4803886195871362002
+    second: atomizador_3
   - first:
-      213: -5064998117483341320
-    second: PersonajeTercero_4
+      213: 5736341035999910385
+    second: atomizador_4
   - first:
-      213: -1866191347348204313
-    second: PersonajeTercero_5
+      213: 4096073404243413922
+    second: atomizador_5
   externalObjects: {}
   serializedVersion: 11
   mipmaps:
@@ -80,9 +80,9 @@ TextureImporter:
   - serializedVersion: 3
     buildTarget: DefaultTexturePlatform
     maxTextureSize: 2048
-    resizeAlgorithm: 1
+    resizeAlgorithm: 0
     textureFormat: -1
-    textureCompression: 2
+    textureCompression: 1
     compressionQuality: 50
     crunchedCompression: 0
     allowsAlphaSplitting: 0
@@ -92,9 +92,33 @@ TextureImporter:
   - serializedVersion: 3
     buildTarget: Standalone
     maxTextureSize: 2048
-    resizeAlgorithm: 1
+    resizeAlgorithm: 0
     textureFormat: -1
-    textureCompression: 2
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Windows Store Apps
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: iPhone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
     compressionQuality: 50
     crunchedCompression: 0
     allowsAlphaSplitting: 0
@@ -104,9 +128,9 @@ TextureImporter:
   - serializedVersion: 3
     buildTarget: Android
     maxTextureSize: 2048
-    resizeAlgorithm: 1
+    resizeAlgorithm: 0
     textureFormat: -1
-    textureCompression: 2
+    textureCompression: 1
     compressionQuality: 50
     crunchedCompression: 0
     allowsAlphaSplitting: 0
@@ -116,9 +140,9 @@ TextureImporter:
   - serializedVersion: 3
     buildTarget: WebGL
     maxTextureSize: 2048
-    resizeAlgorithm: 1
+    resizeAlgorithm: 0
     textureFormat: -1
-    textureCompression: 2
+    textureCompression: 1
     compressionQuality: 50
     crunchedCompression: 0
     allowsAlphaSplitting: 0
@@ -129,13 +153,13 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: PersonajeTercero_0
+      name: atomizador_0
       rect:
         serializedVersion: 2
-        x: 322
-        y: 1039
-        width: 255
-        height: 372
+        x: 0
+        y: 603
+        width: 900
+        height: 603
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -143,20 +167,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: d3ee46cb9641f7750800000000000000
-      internalID: 6304780447706836541
+      spriteID: 666a3f44d7161bbf0800000000000000
+      internalID: -310359708656228762
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: PersonajeTercero_1
+      name: atomizador_1
       rect:
         serializedVersion: 2
-        x: 1235
-        y: 1039
-        width: 254
-        height: 372
+        x: 900
+        y: 603
+        width: 900
+        height: 603
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -164,20 +188,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: ebaf9171101f3ad80800000000000000
-      internalID: -8240477906173035842
+      spriteID: 8a8cfa1b233af36d0800000000000000
+      internalID: -3008506587935422296
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: PersonajeTercero_2
+      name: atomizador_2
       rect:
         serializedVersion: 2
-        x: 2138
-        y: 1039
-        width: 254
-        height: 372
+        x: 1800
+        y: 603
+        width: 900
+        height: 603
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -185,20 +209,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: fca5e3ede8010dfd0800000000000000
-      internalID: -2319335602295776561
+      spriteID: d35de9df66cbffc60800000000000000
+      internalID: 7854203425685165373
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: PersonajeTercero_3
+      name: atomizador_3
       rect:
         serializedVersion: 2
-        x: 350
-        y: 235
-        width: 218
-        height: 339
+        x: 0
+        y: 0
+        width: 900
+        height: 603
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -206,20 +230,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: a9f6c95fce01c89b0800000000000000
-      internalID: -5076664070034395238
+      spriteID: e245fa9f4fa255db0800000000000000
+      internalID: -4803886195871362002
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: PersonajeTercero_4
+      name: atomizador_4
       rect:
         serializedVersion: 2
-        x: 1250
-        y: 239
-        width: 218
-        height: 338
+        x: 900
+        y: 0
+        width: 900
+        height: 603
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -227,20 +251,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 8f912633c0385b9b0800000000000000
-      internalID: -5064998117483341320
+      spriteID: 1f95541a7c39b9f40800000000000000
+      internalID: 5736341035999910385
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: PersonajeTercero_5
+      name: atomizador_5
       rect:
         serializedVersion: 2
-        x: 2152
-        y: 239
-        width: 219
-        height: 338
+        x: 1800
+        y: 0
+        width: 900
+        height: 603
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -248,8 +272,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 7e4176a6bd4f916e0800000000000000
-      internalID: -1866191347348204313
+      spriteID: 2ab8ad92f0d28d830800000000000000
+      internalID: 4096073404243413922
       vertices: []
       indices: 
       edges: []
