@@ -4,23 +4,15 @@ using UnityEngine;
 
 public class Buttons : MonoBehaviour
 {
-    public GameObject player;
+    
+    public Buttons[] buttonArray;
+    public float coldTime;
 
-    public float runtime;
-
-    public void Run()
+    public void ColdTimer()
     {
-        float playerSpeed = player.GetComponent<PlayerJoystick>().speed;
-        playerSpeed = playerSpeed * 2;
-        if (runtime <= 0)
+        while (coldTime > 0)
         {
-            playerSpeed = playerSpeed / 2;
-        }
-        else
-        {
-            runtime -= Time.deltaTime;
-            Debug.Log(runtime);
-            Run();
+            /*runButton.interactable = false; */
         }
     }
 
