@@ -6,19 +6,17 @@ public class Enemy : MonoBehaviour
 {
     public float visionRadius;
     public float speed;
-
     public Rigidbody2D enemyBody;
 
     GameObject player;
     Vector3 initialPosition;
-    // Start is called before the first frame update
+
     void Start()
     {
         player = GameObject.FindGameObjectWithTag("Player");
         initialPosition = transform.position;
     }
 
-    // Update is called once per frame
     void Update()
     {
         Vector3 target = initialPosition;
@@ -35,8 +33,6 @@ public class Enemy : MonoBehaviour
 
         float fixedSpeed = speed*Time.deltaTime;
         transform.position = Vector3.MoveTowards(transform.position, target, fixedSpeed);
-
-        Debug.DrawLine(transform.position, target, Color.green);
     }
 
     private void OnDrawGizmos() 
