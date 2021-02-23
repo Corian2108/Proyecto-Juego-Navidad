@@ -20,6 +20,7 @@ AnimationClip:
   m_PPtrCurves:
   - curve:
     - time: 0
+<<<<<<< HEAD:Juego-Navidad/Assets/Sprites/Player/PlayerStatic.anim
       value: {fileID: 2788518840555678543, guid: ee9f62e6d96c3a5428a76a4ec06cce32,
         type: 3}
     - time: 0.23333333
@@ -36,6 +37,24 @@ AnimationClip:
         type: 3}
     - time: 0.98333335
       value: {fileID: -3280433583965447299, guid: ee9f62e6d96c3a5428a76a4ec06cce32,
+=======
+      value: {fileID: 1962427624094957628, guid: ec404324c341b0a43aed82eaffd8d0ae,
+        type: 3}
+    - time: 0.1
+      value: {fileID: -8422902248201564713, guid: ec404324c341b0a43aed82eaffd8d0ae,
+        type: 3}
+    - time: 0.2
+      value: {fileID: 1769963203676381582, guid: ec404324c341b0a43aed82eaffd8d0ae,
+        type: 3}
+    - time: 0.31666666
+      value: {fileID: -7948786431052891454, guid: ec404324c341b0a43aed82eaffd8d0ae,
+        type: 3}
+    - time: 0.41666666
+      value: {fileID: 4449982570664325099, guid: ec404324c341b0a43aed82eaffd8d0ae,
+        type: 3}
+    - time: 0.51666665
+      value: {fileID: 1645465338479126639, guid: ec404324c341b0a43aed82eaffd8d0ae,
+>>>>>>> 0a69a91... controles restaurados con animaciones attack:Juego-Navidad/Assets/Animation/Player/AtomizadorFrente.anim
         type: 3}
     attribute: m_Sprite
     path: 
@@ -56,12 +75,21 @@ AnimationClip:
       customType: 23
       isPPtrCurve: 1
     pptrCurveMapping:
+<<<<<<< HEAD:Juego-Navidad/Assets/Sprites/Player/PlayerStatic.anim
     - {fileID: 2788518840555678543, guid: ee9f62e6d96c3a5428a76a4ec06cce32, type: 3}
     - {fileID: -1962942296260623422, guid: ee9f62e6d96c3a5428a76a4ec06cce32, type: 3}
     - {fileID: -3280433583965447299, guid: ee9f62e6d96c3a5428a76a4ec06cce32, type: 3}
     - {fileID: 2788518840555678543, guid: ee9f62e6d96c3a5428a76a4ec06cce32, type: 3}
     - {fileID: -1962942296260623422, guid: ee9f62e6d96c3a5428a76a4ec06cce32, type: 3}
     - {fileID: -3280433583965447299, guid: ee9f62e6d96c3a5428a76a4ec06cce32, type: 3}
+=======
+    - {fileID: 1962427624094957628, guid: ec404324c341b0a43aed82eaffd8d0ae, type: 3}
+    - {fileID: -8422902248201564713, guid: ec404324c341b0a43aed82eaffd8d0ae, type: 3}
+    - {fileID: 1769963203676381582, guid: ec404324c341b0a43aed82eaffd8d0ae, type: 3}
+    - {fileID: -7948786431052891454, guid: ec404324c341b0a43aed82eaffd8d0ae, type: 3}
+    - {fileID: 4449982570664325099, guid: ec404324c341b0a43aed82eaffd8d0ae, type: 3}
+    - {fileID: 1645465338479126639, guid: ec404324c341b0a43aed82eaffd8d0ae, type: 3}
+>>>>>>> 0a69a91... controles restaurados con animaciones attack:Juego-Navidad/Assets/Animation/Player/AtomizadorFrente.anim
   m_AnimationClipSettings:
     serializedVersion: 2
     m_AdditiveReferencePoseClip: {fileID: 0}
