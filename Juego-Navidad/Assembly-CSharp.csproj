@@ -62,15 +62,6 @@
      <Compile Include="Assets\Joystick Pack\Scripts\Joysticks\FixedJoystick.cs" />
      <Compile Include="Assets\Joystick Pack\Scripts\Joysticks\FloatingJoystick.cs" />
      <Compile Include="Assets\Joystick Pack\Scripts\Joysticks\VariableJoystick.cs" />
-     <Compile Include="Assets\Scripts\ButtonPrefab.cs" />
-     <Compile Include="Assets\Scripts\ButtonsPool.cs" />
-     <Compile Include="Assets\Scripts\ClickZone.cs" />
-     <Compile Include="Assets\Scripts\DeadZone.cs" />
-     <Compile Include="Assets\Scripts\Enemy.cs" />
-     <Compile Include="Assets\Scripts\MiniGame.cs" />
-     <Compile Include="Assets\Scripts\NpcEvent.cs" />
-     <Compile Include="Assets\Scripts\PlayerJoystick.cs" />
-     <Compile Include="Assets\Scripts\UIButtons.cs" />
  <Reference Include="UnityEngine">
  <HintPath>C:/Program Files/2019.4.17f1/Editor/Data/Managed/UnityEngine/UnityEngine.dll</HintPath>
  </Reference>
