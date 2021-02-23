@@ -2,14 +2,14 @@
 using System.Collections.Generic;
 using UnityEngine;
 
-public class PlayerJoystick : MonoBehaviour
+public class Player : MonoBehaviour
 {
     private float horizontalMove = 0f;
     private float verticalMove = 0f;
     public float runSpeed=2;
     public float runSpeedHorizontal=2;
     public float runSpeedVertical = 2;
-    public FixedJoystick fixedJoystick;
+    //public FixedJoystick fixedJoystick;
     Rigidbody2D rb2D;
     public SpriteRenderer spriteRenderer;
     public Animator animator;
@@ -21,9 +21,9 @@ public class PlayerJoystick : MonoBehaviour
 
     public void FixedUpdate() 
     {
-        horizontalMove = fixedJoystick.Horizontal * runSpeedHorizontal;
-        verticalMove = fixedJoystick.Vertical * runSpeedVertical;
-        transform.position += new Vector3(horizontalMove, verticalMove, 0) * Time.deltaTime * runSpeed;
+        //horizontalMove = fixedJoystick.Horizontal * runSpeedHorizontal;
+        //verticalMove = fixedJoystick.Vertical * runSpeedVertical;
+        //transform.position += new Vector3(horizontalMove, verticalMove, 0) * Time.deltaTime * runSpeed;
     }
 
     private void Update()
