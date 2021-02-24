@@ -121,6 +121,7 @@ MonoBehaviour:
   speed: 0.09
   fixedJoystick: {fileID: 0}
   player: {fileID: 5002132005910548597}
+  runTime: 0
 --- !u!70 &5002132005910548596
 CapsuleCollider2D:
   m_ObjectHideFlags: 0
@@ -130,7 +131,7 @@ CapsuleCollider2D:
   m_GameObject: {fileID: 5002132005910548593}
   m_Enabled: 1
   m_Density: 1
-  m_Material: {fileID: 0}
+  m_Material: {fileID: 6200000, guid: 9803852a933d155419f01ab2dbd2e9d2, type: 2}
   m_IsTrigger: 0
   m_UsedByEffector: 0
   m_UsedByComposite: 0
