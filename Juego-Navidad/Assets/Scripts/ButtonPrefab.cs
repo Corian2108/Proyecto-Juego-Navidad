@@ -14,7 +14,7 @@ public class ButtonPrefab : MonoBehaviour
     private ButtonsPool spawnQuantity;
     public bool scored;
     private Renderer render;
-
+    
     private void Awake()
     {
         rb2d = GetComponent<Rigidbody2D>();
