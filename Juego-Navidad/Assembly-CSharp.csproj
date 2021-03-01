@@ -271,6 +271,7 @@
     <Reference Include="UnityEditor">
         <HintPath>C:/Program Files/Unity/Hub/Editor/2019.4.17f1/Editor/Data/Managed/UnityEditor.dll</HintPath>
     </Reference>
+<<<<<<< HEAD
     <Reference Include="Unity.Analytics.Editor">
         <HintPath>C:/Users/Agustin Vaca/Documents/Documentos personales/Mio/Repositorios/Proyecto-Juego-Navidad/Juego-Navidad/Library/PackageCache/com.unity.analytics@3.3.5/Unity.Analytics.Editor.dll</HintPath>
     </Reference>
@@ -283,6 +284,8 @@
     <Reference Include="nunit.framework">
         <HintPath>C:/Users/Agustin Vaca/Documents/Documentos personales/Mio/Repositorios/Proyecto-Juego-Navidad/Juego-Navidad/Library/PackageCache/com.unity.ext.nunit@1.0.5/net35/unity-custom/nunit.framework.dll</HintPath>
     </Reference>
+=======
+>>>>>>> Animaciones
     <Reference Include="UnityEditor.iOS.Extensions.Xcode">
         <HintPath>C:/Program Files/Unity/Hub/Editor/2019.4.17f1/Editor/Data/PlaybackEngines/iOSSupport/UnityEditor.iOS.Extensions.Xcode.dll</HintPath>
     </Reference>
@@ -709,9 +712,12 @@
     <Reference Include="UnityEditor.UI">
         <HintPath>C:/Users/Agustin Vaca/Documents/Documentos personales/Mio/Repositorios/Proyecto-Juego-Navidad/Juego-Navidad/Library/ScriptAssemblies/UnityEditor.UI.dll</HintPath>
     </Reference>
+<<<<<<< HEAD
     <Reference Include="com.unity.multiplayer-hlapi.Runtime">
         <HintPath>C:/Users/Agustin Vaca/Documents/Documentos personales/Mio/Repositorios/Proyecto-Juego-Navidad/Juego-Navidad/Library/ScriptAssemblies/com.unity.multiplayer-hlapi.Runtime.dll</HintPath>
     </Reference>
+=======
+>>>>>>> Animaciones
   </ItemGroup>
   <ItemGroup>
   </ItemGroup>
