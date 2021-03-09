@@ -84,14 +84,9 @@ lint/outputs/
 lint/tmp/
 # lint/reports/
 
-<<<<<<< HEAD
 Packages
 Temp
 .vscode
 ProjectSettings
 Library
 Pruebas
-=======
-Library
-Temp
->>>>>>> caro
