@@ -1544,6 +1544,12 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1627925822}
   m_CullTransparentMesh: 0
+--- !u!50 &1648310699 stripped
+Rigidbody2D:
+  m_CorrespondingSourceObject: {fileID: 5002132005910548599, guid: ac7273f72f9a9c548ab2234114bdbcc1,
+    type: 3}
+  m_PrefabInstance: {fileID: 822306632}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &1672314956
 GameObject:
   m_ObjectHideFlags: 0
@@ -1964,17 +1970,21 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 6305049051877465797, guid: dd8b451d04b1cbc42b3a11805969f32c,
         type: 3}
+      propertyPath: speed
+      value: 4
+      objectReference: {fileID: 0}
+    - target: {fileID: 6305049051877465797, guid: dd8b451d04b1cbc42b3a11805969f32c,
+        type: 3}
       propertyPath: enemyBody
       value: 
-      objectReference: {fileID: 1929003088}
+      objectReference: {fileID: 1648310699}
+    - target: {fileID: 6305049051877465797, guid: dd8b451d04b1cbc42b3a11805969f32c,
+        type: 3}
+      propertyPath: visionRadius
+      value: 4
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: dd8b451d04b1cbc42b3a11805969f32c, type: 3}
---- !u!50 &1929003088 stripped
-Rigidbody2D:
-  m_CorrespondingSourceObject: {fileID: 2405742766150088395, guid: dd8b451d04b1cbc42b3a11805969f32c,
-    type: 3}
-  m_PrefabInstance: {fileID: 1929003087}
-  m_PrefabAsset: {fileID: 0}
 --- !u!1001 &2067893293
 PrefabInstance:
   m_ObjectHideFlags: 0
