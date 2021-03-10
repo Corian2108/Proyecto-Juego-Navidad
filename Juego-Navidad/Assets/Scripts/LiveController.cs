@@ -1,18 +1,17 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.UI;
 
 public class LiveController : MonoBehaviour
 {
-    // Start is called before the first frame update
-    void Start()
-    {
-        
-    }
+    
+    public float vidaPlayer;
+    public Image barraVida;
 
-    // Update is called once per frame
     void Update()
     {
-        
+        vidaPlayer = Mathf.Clamp(vidaPlayer, 0, 100);
+        barraVida.fillAmount = vidaPlayer/100;
     }
 }

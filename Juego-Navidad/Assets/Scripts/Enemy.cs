@@ -4,9 +4,14 @@ using UnityEngine;
 
 public class Enemy : MonoBehaviour
 {
+    LiveController vidaPlayer;
+
     public float visionRadius;
     public float speed;
     public Rigidbody2D enemyBody;
+    public int damage;
+    public float damageatime;
+    float currentDamageTime;
 
     GameObject player;
     Vector3 initialPosition;
