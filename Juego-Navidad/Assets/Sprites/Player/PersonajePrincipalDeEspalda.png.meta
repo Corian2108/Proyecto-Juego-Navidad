@@ -1,31 +1,25 @@
 fileFormatVersion: 2
-guid: c318fa9c25ffef84aa71331983fd3f10
+guid: 40598d000c1560942a4f2a427d5ffe4f
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: -3790086240528077509
-    second: AtomizadorIzquierda_0
+      213: 5031580968041685395
+    second: PersonajePrincipalDeEspalda_0
   - first:
-      213: -1825581441270626024
-    second: AtomizadorIzquierda_1
+      213: -2693511182747964924
+    second: PersonajePrincipalDeEspalda_1
   - first:
-      213: -4339999400387709255
-    second: AtomizadorIzquierda_2
+      213: 4783303046504110125
+    second: PersonajePrincipalDeEspalda_2
   - first:
-      213: 994675662849400944
-    second: AtomizadorIzquierda_3
+      213: 616305196996846551
+    second: PersonajePrincipalDeEspalda_3
   - first:
-      213: 1779558660888202227
-    second: AtomizadorIzquierda_4
+      213: -4084633579560116444
+    second: PersonajePrincipalDeEspalda_4
   - first:
-      213: -1342619003663081152
-    second: AtomizadorIzquierda_5
-  - first:
-      213: -4704763817949090037
-    second: AtomizadorIzquierda_6
-  - first:
-      213: -7770764958751743747
-    second: AtomizadorIzquierda_7
+      213: 3792522598600707377
+    second: PersonajePrincipalDeEspalda_5
   externalObjects: {}
   serializedVersion: 11
   mipmaps:
@@ -108,6 +102,30 @@ TextureImporter:
     androidETC2FallbackOverride: 0
     forceMaximumCompressionQuality_BC6H_BC7: 0
   - serializedVersion: 3
+    buildTarget: Windows Store Apps
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: iPhone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
     buildTarget: Android
     maxTextureSize: 2048
     resizeAlgorithm: 0
@@ -135,169 +153,127 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: AtomizadorIzquierda_0
+      name: PersonajePrincipalDeEspalda_0
       rect:
         serializedVersion: 2
-        x: 93
-        y: 457
-        width: 296
-        height: 228
-      alignment: 9
-      pivot: {x: 0.6146132, y: 0.54528594}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: b3d6a3d15a8e66bc0800000000000000
-      internalID: -3790086240528077509
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: AtomizadorIzquierda_1
-      rect:
-        serializedVersion: 2
-        x: 455
-        y: 457
-        width: 311
-        height: 228
-      alignment: 9
-      pivot: {x: 0.4773242, y: 0.5645997}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 819c48cf95b3aa6e0800000000000000
-      internalID: -1825581441270626024
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: AtomizadorIzquierda_2
-      rect:
-        serializedVersion: 2
-        x: 879
-        y: 457
-        width: 280
-        height: 228
+        x: 0
+        y: 672
+        width: 600
+        height: 672
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 9b67b762a8935c3c0800000000000000
-      internalID: -4339999400387709255
+      spriteID: 391adb26b34c3d540800000000000000
+      internalID: 5031580968041685395
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: AtomizadorIzquierda_3
+      name: PersonajePrincipalDeEspalda_1
       rect:
         serializedVersion: 2
-        x: 90
-        y: 229
-        width: 298
-        height: 228
-      alignment: 9
-      pivot: {x: 0.6435424, y: 0.44824472}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 0706ddece3ccdcd00800000000000000
-      internalID: 994675662849400944
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: AtomizadorIzquierda_4
-      rect:
-        serializedVersion: 2
-        x: 455
-        y: 229
-        width: 315
-        height: 228
-      alignment: 9
-      pivot: {x: 0.66857404, y: 0.43530595}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 3fb063f6c2342b810800000000000000
-      internalID: 1779558660888202227
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: AtomizadorIzquierda_5
-      rect:
-        serializedVersion: 2
-        x: 860
-        y: 229
-        width: 301
-        height: 228
+        x: 600
+        y: 672
+        width: 600
+        height: 672
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 04129f1312f0e5de0800000000000000
-      internalID: -1342619003663081152
+      spriteID: 40ae3c1a9d9be9ad0800000000000000
+      internalID: -2693511182747964924
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: AtomizadorIzquierda_6
+      name: PersonajePrincipalDeEspalda_2
       rect:
         serializedVersion: 2
-        x: 89
-        y: 1
-        width: 299
-        height: 228
-      alignment: 9
-      pivot: {x: 0.65292877, y: 0.33826512}
+        x: 1200
+        y: 672
+        width: 600
+        height: 672
+      alignment: 0
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: b0fa8070c3255beb0800000000000000
-      internalID: -4704763817949090037
+      spriteID: d28dbeb17c4b16240800000000000000
+      internalID: 4783303046504110125
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: AtomizadorIzquierda_7
+      name: PersonajePrincipalDeEspalda_3
       rect:
         serializedVersion: 2
-        x: 455
-        y: 1
-        width: 318
-        height: 228
-      alignment: 9
-      pivot: {x: 0.74119866, y: 0.38355088}
+        x: 0
+        y: 0
+        width: 600
+        height: 672
+      alignment: 0
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: df0ac88f072b82490800000000000000
-      internalID: -7770764958751743747
+      spriteID: 7d36934bf4e8d8800800000000000000
+      internalID: 616305196996846551
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PersonajePrincipalDeEspalda_4
+      rect:
+        serializedVersion: 2
+        x: 600
+        y: 0
+        width: 600
+        height: 672
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 42fdfa496677057c0800000000000000
+      internalID: -4084633579560116444
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PersonajePrincipalDeEspalda_5
+      rect:
+        serializedVersion: 2
+        x: 1200
+        y: 0
+        width: 600
+        height: 672
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 13d8c34b53fb1a430800000000000000
+      internalID: 3792522598600707377
       vertices: []
       indices: 
       edges: []

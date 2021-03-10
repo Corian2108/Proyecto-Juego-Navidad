@@ -88,11 +88,7 @@ TextureImporter:
     maxTextureSize: 2048
     resizeAlgorithm: 0
     textureFormat: -1
-<<<<<<< HEAD
-    textureCompression: 2
-=======
     textureCompression: 1
->>>>>>> 4d33c8d9516a27c4041c3088b8f825a22da137e3
     compressionQuality: 50
     crunchedCompression: 0
     allowsAlphaSplitting: 0
@@ -104,11 +100,7 @@ TextureImporter:
     maxTextureSize: 2048
     resizeAlgorithm: 0
     textureFormat: -1
-<<<<<<< HEAD
-    textureCompression: 2
-=======
     textureCompression: 1
->>>>>>> 4d33c8d9516a27c4041c3088b8f825a22da137e3
     compressionQuality: 50
     crunchedCompression: 0
     allowsAlphaSplitting: 0
@@ -120,11 +112,7 @@ TextureImporter:
     maxTextureSize: 2048
     resizeAlgorithm: 0
     textureFormat: -1
-<<<<<<< HEAD
-    textureCompression: 2
-=======
     textureCompression: 1
->>>>>>> 4d33c8d9516a27c4041c3088b8f825a22da137e3
     compressionQuality: 50
     crunchedCompression: 0
     allowsAlphaSplitting: 0
@@ -136,11 +124,7 @@ TextureImporter:
     maxTextureSize: 2048
     resizeAlgorithm: 0
     textureFormat: -1
-<<<<<<< HEAD
-    textureCompression: 2
-=======
     textureCompression: 1
->>>>>>> 4d33c8d9516a27c4041c3088b8f825a22da137e3
     compressionQuality: 50
     crunchedCompression: 0
     allowsAlphaSplitting: 0
@@ -154,21 +138,12 @@ TextureImporter:
       name: AtomizadorDerecha_0
       rect:
         serializedVersion: 2
-<<<<<<< HEAD
-        x: 136
-        y: 456
-        width: 320
-        height: 228
-      alignment: 9
-      pivot: {x: 0.4549424, y: 0.54469085}
-=======
         x: 0
         y: 895.3334
         width: 682
         height: 447.66666
       alignment: 0
       pivot: {x: 0, y: 0}
->>>>>>> 4d33c8d9516a27c4041c3088b8f825a22da137e3
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -184,21 +159,12 @@ TextureImporter:
       name: AtomizadorDerecha_1
       rect:
         serializedVersion: 2
-<<<<<<< HEAD
-        x: 455
-        y: 456.6667
-        width: 455.33334
-        height: 228.33333
-      alignment: 9
-      pivot: {x: 0.46797815, y: 0.5510857}
-=======
         x: 682
         y: 895.3334
         width: 682
         height: 447.66666
       alignment: 0
       pivot: {x: 0, y: 0}
->>>>>>> 4d33c8d9516a27c4041c3088b8f825a22da137e3
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -214,21 +180,12 @@ TextureImporter:
       name: AtomizadorDerecha_2
       rect:
         serializedVersion: 2
-<<<<<<< HEAD
-        x: 910
-        y: 457
-        width: 337
-        height: 228
-      alignment: 9
-      pivot: {x: 0.40738013, y: 0.5510299}
-=======
         x: 1364
         y: 895.3334
         width: 682
         height: 447.66666
       alignment: 0
       pivot: {x: 0, y: 0}
->>>>>>> 4d33c8d9516a27c4041c3088b8f825a22da137e3
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -244,15 +201,6 @@ TextureImporter:
       name: AtomizadorDerecha_3
       rect:
         serializedVersion: 2
-<<<<<<< HEAD
-        x: 135
-        y: 229
-        width: 363
-        height: 228
-      alignment: 9
-      pivot: {x: 0.40691093, y: 0.4489145}
-      border: {x: 1, y: 0, z: 0, w: 0}
-=======
         x: 0
         y: 448.33334
         width: 682
@@ -260,7 +208,6 @@ TextureImporter:
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
->>>>>>> 4d33c8d9516a27c4041c3088b8f825a22da137e3
       outline: []
       physicsShape: []
       tessellationDetail: 0
@@ -275,21 +222,12 @@ TextureImporter:
       name: AtomizadorDerecha_4
       rect:
         serializedVersion: 2
-<<<<<<< HEAD
-        x: 498
-        y: 229
-        width: 412
-        height: 228
-      alignment: 9
-      pivot: {x: 0.39017662, y: 0.4617327}
-=======
         x: 682
         y: 448.33334
         width: 682
         height: 447.66666
       alignment: 0
       pivot: {x: 0, y: 0}
->>>>>>> 4d33c8d9516a27c4041c3088b8f825a22da137e3
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -305,21 +243,12 @@ TextureImporter:
       name: AtomizadorDerecha_5
       rect:
         serializedVersion: 2
-<<<<<<< HEAD
-        x: 910
-        y: 229
-        width: 337
-        height: 228
-      alignment: 9
-      pivot: {x: 0.33348572, y: 0.47445735}
-=======
         x: 1364
         y: 448.33334
         width: 682
         height: 447.66666
       alignment: 0
       pivot: {x: 0, y: 0}
->>>>>>> 4d33c8d9516a27c4041c3088b8f825a22da137e3
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -335,21 +264,12 @@ TextureImporter:
       name: AtomizadorDerecha_6
       rect:
         serializedVersion: 2
-<<<<<<< HEAD
-        x: 135
-        y: 0
-        width: 355
-        height: 228
-      alignment: 9
-      pivot: {x: 0.60247034, y: 0.37228623}
-=======
         x: 0
         y: 1.3333435
         width: 682
         height: 447.66666
       alignment: 0
       pivot: {x: 0, y: 0}
->>>>>>> 4d33c8d9516a27c4041c3088b8f825a22da137e3
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -365,21 +285,12 @@ TextureImporter:
       name: AtomizadorDerecha_7
       rect:
         serializedVersion: 2
-<<<<<<< HEAD
-        x: 489
-        y: 1
-        width: 421
-        height: 228
-      alignment: 9
-      pivot: {x: 0.44876495, y: 0.37228623}
-=======
         x: 682
         y: 1.3333435
         width: 682
         height: 447.66666
       alignment: 0
       pivot: {x: 0, y: 0}
->>>>>>> 4d33c8d9516a27c4041c3088b8f825a22da137e3
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
