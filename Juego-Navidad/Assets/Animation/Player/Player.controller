@@ -204,9 +204,12 @@ AnimatorStateMachine:
     m_State: {fileID: -7648684284774718895}
     m_Position: {x: -20, y: -200, z: 0}
   - serializedVersion: 1
+<<<<<<< HEAD
     m_State: {fileID: -2672413041493743540}
     m_Position: {x: 155, y: 125, z: 0}
   - serializedVersion: 1
+=======
+>>>>>>> 4d33c8d9516a27c4041c3088b8f825a22da137e3
     m_State: {fileID: -5018398991330019620}
     m_Position: {x: 0, y: 30, z: 0}
   - serializedVersion: 1
@@ -330,6 +333,7 @@ AnimatorStateTransition:
   m_InterruptionSource: 0
   m_OrderedInterruption: 1
   m_CanTransitionToSelf: 1
+<<<<<<< HEAD
 --- !u!1102 &-2672413041493743540
 AnimatorState:
   serializedVersion: 5
@@ -356,6 +360,8 @@ AnimatorState:
   m_MirrorParameter: 
   m_CycleOffsetParameter: 
   m_TimeParameter: 
+=======
+>>>>>>> 4d33c8d9516a27c4041c3088b8f825a22da137e3
 --- !u!1102 &-463362851947688461
 AnimatorState:
   serializedVersion: 5
@@ -447,49 +453,81 @@ AnimatorController:
     m_DefaultFloat: 0
     m_DefaultInt: 0
     m_DefaultBool: 0
+<<<<<<< HEAD
     m_Controller: {fileID: 0}
+=======
+    m_Controller: {fileID: 9100000}
+>>>>>>> 4d33c8d9516a27c4041c3088b8f825a22da137e3
   - m_Name: WalkingBack
     m_Type: 4
     m_DefaultFloat: 0
     m_DefaultInt: 0
     m_DefaultBool: 0
+<<<<<<< HEAD
     m_Controller: {fileID: 0}
+=======
+    m_Controller: {fileID: 9100000}
+>>>>>>> 4d33c8d9516a27c4041c3088b8f825a22da137e3
   - m_Name: WalkingRight
     m_Type: 4
     m_DefaultFloat: 0
     m_DefaultInt: 0
     m_DefaultBool: 0
+<<<<<<< HEAD
     m_Controller: {fileID: 0}
+=======
+    m_Controller: {fileID: 9100000}
+>>>>>>> 4d33c8d9516a27c4041c3088b8f825a22da137e3
   - m_Name: WalkingLeft
     m_Type: 4
     m_DefaultFloat: 0
     m_DefaultInt: 0
     m_DefaultBool: 0
+<<<<<<< HEAD
     m_Controller: {fileID: 0}
+=======
+    m_Controller: {fileID: 9100000}
+>>>>>>> 4d33c8d9516a27c4041c3088b8f825a22da137e3
   - m_Name: AttackFront
     m_Type: 4
     m_DefaultFloat: 0
     m_DefaultInt: 0
     m_DefaultBool: 0
+<<<<<<< HEAD
     m_Controller: {fileID: 0}
+=======
+    m_Controller: {fileID: 9100000}
+>>>>>>> 4d33c8d9516a27c4041c3088b8f825a22da137e3
   - m_Name: AttackBack
     m_Type: 4
     m_DefaultFloat: 0
     m_DefaultInt: 0
     m_DefaultBool: 0
+<<<<<<< HEAD
     m_Controller: {fileID: 0}
+=======
+    m_Controller: {fileID: 9100000}
+>>>>>>> 4d33c8d9516a27c4041c3088b8f825a22da137e3
   - m_Name: AttackRight
     m_Type: 4
     m_DefaultFloat: 0
     m_DefaultInt: 0
     m_DefaultBool: 0
+<<<<<<< HEAD
     m_Controller: {fileID: 0}
+=======
+    m_Controller: {fileID: 9100000}
+>>>>>>> 4d33c8d9516a27c4041c3088b8f825a22da137e3
   - m_Name: AttackLeft
     m_Type: 4
     m_DefaultFloat: 0
     m_DefaultInt: 0
     m_DefaultBool: 0
+<<<<<<< HEAD
     m_Controller: {fileID: 0}
+=======
+    m_Controller: {fileID: 9100000}
+>>>>>>> 4d33c8d9516a27c4041c3088b8f825a22da137e3
   m_AnimatorLayers:
   - serializedVersion: 5
     m_Name: Base Layer

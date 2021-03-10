@@ -82,7 +82,11 @@ TextureImporter:
     maxTextureSize: 2048
     resizeAlgorithm: 0
     textureFormat: -1
+<<<<<<< HEAD
     textureCompression: 2
+=======
+    textureCompression: 1
+>>>>>>> 4d33c8d9516a27c4041c3088b8f825a22da137e3
     compressionQuality: 50
     crunchedCompression: 0
     allowsAlphaSplitting: 0
@@ -94,7 +98,11 @@ TextureImporter:
     maxTextureSize: 2048
     resizeAlgorithm: 0
     textureFormat: -1
+<<<<<<< HEAD
     textureCompression: 2
+=======
+    textureCompression: 1
+>>>>>>> 4d33c8d9516a27c4041c3088b8f825a22da137e3
     compressionQuality: 50
     crunchedCompression: 0
     allowsAlphaSplitting: 0
@@ -106,7 +114,11 @@ TextureImporter:
     maxTextureSize: 2048
     resizeAlgorithm: 0
     textureFormat: -1
+<<<<<<< HEAD
     textureCompression: 2
+=======
+    textureCompression: 1
+>>>>>>> 4d33c8d9516a27c4041c3088b8f825a22da137e3
     compressionQuality: 50
     crunchedCompression: 0
     allowsAlphaSplitting: 0
@@ -118,7 +130,11 @@ TextureImporter:
     maxTextureSize: 2048
     resizeAlgorithm: 0
     textureFormat: -1
+<<<<<<< HEAD
     textureCompression: 2
+=======
+    textureCompression: 1
+>>>>>>> 4d33c8d9516a27c4041c3088b8f825a22da137e3
     compressionQuality: 50
     crunchedCompression: 0
     allowsAlphaSplitting: 0
@@ -132,12 +148,21 @@ TextureImporter:
       name: AtomizadorEspalda_0
       rect:
         serializedVersion: 2
+<<<<<<< HEAD
         x: 196
         y: 366
         width: 254
         height: 319
       alignment: 9
       pivot: {x: 0.51869947, y: 0.36729082}
+=======
+        x: 0
+        y: 672
+        width: 600
+        height: 672
+      alignment: 0
+      pivot: {x: 0, y: 0}
+>>>>>>> 4d33c8d9516a27c4041c3088b8f825a22da137e3
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -153,12 +178,21 @@ TextureImporter:
       name: AtomizadorEspalda_1
       rect:
         serializedVersion: 2
+<<<<<<< HEAD
         x: 553
         y: 369
         width: 217
         height: 316
       alignment: 9
       pivot: {x: 0.50244594, y: 0.31860024}
+=======
+        x: 600
+        y: 672
+        width: 600
+        height: 672
+      alignment: 0
+      pivot: {x: 0, y: 0}
+>>>>>>> 4d33c8d9516a27c4041c3088b8f825a22da137e3
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -174,12 +208,21 @@ TextureImporter:
       name: AtomizadorEspalda_2
       rect:
         serializedVersion: 2
+<<<<<<< HEAD
         x: 900
         y: 367
         width: 231
         height: 318
       alignment: 9
       pivot: {x: 0.45841235, y: 0.35232496}
+=======
+        x: 1200
+        y: 672
+        width: 600
+        height: 672
+      alignment: 0
+      pivot: {x: 0, y: 0}
+>>>>>>> 4d33c8d9516a27c4041c3088b8f825a22da137e3
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -195,12 +238,21 @@ TextureImporter:
       name: AtomizadorEspalda_3
       rect:
         serializedVersion: 2
+<<<<<<< HEAD
         x: 196
         y: 2
         width: 255
         height: 363
       alignment: 9
       pivot: {x: 0.50241375, y: 0.29676366}
+=======
+        x: 0
+        y: 0
+        width: 600
+        height: 672
+      alignment: 0
+      pivot: {x: 0, y: 0}
+>>>>>>> 4d33c8d9516a27c4041c3088b8f825a22da137e3
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -216,12 +268,21 @@ TextureImporter:
       name: AtomizadorEspalda_4
       rect:
         serializedVersion: 2
+<<<<<<< HEAD
         x: 553
         y: 3
         width: 222
         height: 366
       alignment: 9
       pivot: {x: 0.47736922, y: 0.28487542}
+=======
+        x: 600
+        y: 0
+        width: 600
+        height: 672
+      alignment: 0
+      pivot: {x: 0, y: 0}
+>>>>>>> 4d33c8d9516a27c4041c3088b8f825a22da137e3
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -237,12 +298,21 @@ TextureImporter:
       name: AtomizadorEspalda_5
       rect:
         serializedVersion: 2
+<<<<<<< HEAD
         x: 901
         y: 3
         width: 230
         height: 363
       alignment: 9
       pivot: {x: 0.39233318, y: 0.26425537}
+=======
+        x: 1200
+        y: 0
+        width: 600
+        height: 672
+      alignment: 0
+      pivot: {x: 0, y: 0}
+>>>>>>> 4d33c8d9516a27c4041c3088b8f825a22da137e3
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []

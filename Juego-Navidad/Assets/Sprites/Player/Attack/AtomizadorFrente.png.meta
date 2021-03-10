@@ -132,12 +132,21 @@ TextureImporter:
       name: AtomizadorFrente_0
       rect:
         serializedVersion: 2
+<<<<<<< HEAD
         x: 4
         y: 342
         width: 548
         height: 343
       alignment: 9
       pivot: {x: 0.23723821, y: 0.62488896}
+=======
+        x: 0
+        y: 672
+        width: 600
+        height: 672
+      alignment: 0
+      pivot: {x: 0, y: 0}
+>>>>>>> 4d33c8d9516a27c4041c3088b8f825a22da137e3
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -153,12 +162,21 @@ TextureImporter:
       name: AtomizadorFrente_1
       rect:
         serializedVersion: 2
+<<<<<<< HEAD
         x: 362
         y: 341
         width: 551
         height: 344
       alignment: 9
       pivot: {x: 0.52912897, y: 0.57741034}
+=======
+        x: 600
+        y: 672
+        width: 600
+        height: 672
+      alignment: 0
+      pivot: {x: 0, y: 0}
+>>>>>>> 4d33c8d9516a27c4041c3088b8f825a22da137e3
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -174,12 +192,21 @@ TextureImporter:
       name: AtomizadorFrente_2
       rect:
         serializedVersion: 2
+<<<<<<< HEAD
         x: 807
         y: 342
         width: 559
         height: 343
       alignment: 9
       pivot: {x: 0.3552065, y: 0.53549594}
+=======
+        x: 1200
+        y: 672
+        width: 600
+        height: 672
+      alignment: 0
+      pivot: {x: 0, y: 0}
+>>>>>>> 4d33c8d9516a27c4041c3088b8f825a22da137e3
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -195,12 +222,21 @@ TextureImporter:
       name: AtomizadorFrente_3
       rect:
         serializedVersion: 2
+<<<<<<< HEAD
         x: 2
         y: 0
         width: 547
         height: 344
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
+=======
+        x: 0
+        y: 0
+        width: 600
+        height: 672
+      alignment: 0
+      pivot: {x: 0, y: 0}
+>>>>>>> 4d33c8d9516a27c4041c3088b8f825a22da137e3
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -216,12 +252,21 @@ TextureImporter:
       name: AtomizadorFrente_4
       rect:
         serializedVersion: 2
+<<<<<<< HEAD
         x: 380
         y: 0
         width: 529
         height: 342
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
+=======
+        x: 600
+        y: 0
+        width: 600
+        height: 672
+      alignment: 0
+      pivot: {x: 0, y: 0}
+>>>>>>> 4d33c8d9516a27c4041c3088b8f825a22da137e3
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -237,12 +282,21 @@ TextureImporter:
       name: AtomizadorFrente_5
       rect:
         serializedVersion: 2
+<<<<<<< HEAD
         x: 770
         y: 0
         width: 596
         height: 342
       alignment: 9
       pivot: {x: 0.40214312, y: 0.5298436}
+=======
+        x: 1200
+        y: 0
+        width: 600
+        height: 672
+      alignment: 0
+      pivot: {x: 0, y: 0}
+>>>>>>> 4d33c8d9516a27c4041c3088b8f825a22da137e3
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []

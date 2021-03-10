@@ -20,6 +20,7 @@ AnimationClip:
   m_PPtrCurves:
   - curve:
     - time: 0
+<<<<<<< HEAD:Juego-Navidad/Assets/Animation/Player/AtomizadorFrente.anim
       value: {fileID: -5553673337457004520, guid: a7bb0e6f80129964c9690679683126f6,
         type: 3}
     - time: 0.1
@@ -36,6 +37,24 @@ AnimationClip:
         type: 3}
     - time: 0.51666665
       value: {fileID: 3504045617522328379, guid: a7bb0e6f80129964c9690679683126f6,
+=======
+      value: {fileID: 1962427624094957628, guid: ec404324c341b0a43aed82eaffd8d0ae,
+        type: 3}
+    - time: 0.1
+      value: {fileID: -8422902248201564713, guid: ec404324c341b0a43aed82eaffd8d0ae,
+        type: 3}
+    - time: 0.2
+      value: {fileID: 1769963203676381582, guid: ec404324c341b0a43aed82eaffd8d0ae,
+        type: 3}
+    - time: 0.31666666
+      value: {fileID: -7948786431052891454, guid: ec404324c341b0a43aed82eaffd8d0ae,
+        type: 3}
+    - time: 0.41666666
+      value: {fileID: 4449982570664325099, guid: ec404324c341b0a43aed82eaffd8d0ae,
+        type: 3}
+    - time: 0.51666665
+      value: {fileID: 1645465338479126639, guid: ec404324c341b0a43aed82eaffd8d0ae,
+>>>>>>> 4d33c8d9516a27c4041c3088b8f825a22da137e3:Juego-Navidad/Assets/Sprites/Player/PlayerStatic.anim
         type: 3}
     attribute: m_Sprite
     path: 
@@ -56,12 +75,21 @@ AnimationClip:
       customType: 23
       isPPtrCurve: 1
     pptrCurveMapping:
+<<<<<<< HEAD:Juego-Navidad/Assets/Animation/Player/AtomizadorFrente.anim
     - {fileID: -5553673337457004520, guid: a7bb0e6f80129964c9690679683126f6, type: 3}
     - {fileID: 5610513510474145756, guid: a7bb0e6f80129964c9690679683126f6, type: 3}
     - {fileID: 5056922520968161879, guid: a7bb0e6f80129964c9690679683126f6, type: 3}
     - {fileID: 3476938997022981032, guid: a7bb0e6f80129964c9690679683126f6, type: 3}
     - {fileID: 210409985580367661, guid: a7bb0e6f80129964c9690679683126f6, type: 3}
     - {fileID: 3504045617522328379, guid: a7bb0e6f80129964c9690679683126f6, type: 3}
+=======
+    - {fileID: 1962427624094957628, guid: ec404324c341b0a43aed82eaffd8d0ae, type: 3}
+    - {fileID: -8422902248201564713, guid: ec404324c341b0a43aed82eaffd8d0ae, type: 3}
+    - {fileID: 1769963203676381582, guid: ec404324c341b0a43aed82eaffd8d0ae, type: 3}
+    - {fileID: -7948786431052891454, guid: ec404324c341b0a43aed82eaffd8d0ae, type: 3}
+    - {fileID: 4449982570664325099, guid: ec404324c341b0a43aed82eaffd8d0ae, type: 3}
+    - {fileID: 1645465338479126639, guid: ec404324c341b0a43aed82eaffd8d0ae, type: 3}
+>>>>>>> 4d33c8d9516a27c4041c3088b8f825a22da137e3:Juego-Navidad/Assets/Sprites/Player/PlayerStatic.anim
   m_AnimationClipSettings:
     serializedVersion: 2
     m_AdditiveReferencePoseClip: {fileID: 0}
