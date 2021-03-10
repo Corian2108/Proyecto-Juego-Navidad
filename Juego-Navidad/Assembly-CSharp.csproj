@@ -731,6 +731,9 @@
  <Reference Include="Unity.Timeline.Editor">
  <HintPath>S:/Cuarto semestre/ProyectoVideoJuego/Programacion/Proyecto-Juego-Navidad/Juego-Navidad/Library/ScriptAssemblies/Unity.Timeline.Editor.dll</HintPath>
  </Reference>
+ <Reference Include="Cinemachine">
+ <HintPath>S:/Cuarto semestre/ProyectoVideoJuego/Programacion/Proyecto-Juego-Navidad/Juego-Navidad/Library/ScriptAssemblies/Cinemachine.dll</HintPath>
+ </Reference>
  <Reference Include="Unity.VSCode.Editor">
  <HintPath>S:/Cuarto semestre/ProyectoVideoJuego/Programacion/Proyecto-Juego-Navidad/Juego-Navidad/Library/ScriptAssemblies/Unity.VSCode.Editor.dll</HintPath>
  </Reference>
@@ -752,17 +755,14 @@
  <Reference Include="Unity.2D.Sprite.Editor">
  <HintPath>S:/Cuarto semestre/ProyectoVideoJuego/Programacion/Proyecto-Juego-Navidad/Juego-Navidad/Library/ScriptAssemblies/Unity.2D.Sprite.Editor.dll</HintPath>
  </Reference>
+ <Reference Include="com.unity.cinemachine.editor">
+ <HintPath>S:/Cuarto semestre/ProyectoVideoJuego/Programacion/Proyecto-Juego-Navidad/Juego-Navidad/Library/ScriptAssemblies/com.unity.cinemachine.editor.dll</HintPath>
+ </Reference>
  <Reference Include="Unity.TextMeshPro">
  <HintPath>S:/Cuarto semestre/ProyectoVideoJuego/Programacion/Proyecto-Juego-Navidad/Juego-Navidad/Library/ScriptAssemblies/Unity.TextMeshPro.dll</HintPath>
  </Reference>
  <Reference Include="UnityEditor.UI">
  <HintPath>S:/Cuarto semestre/ProyectoVideoJuego/Programacion/Proyecto-Juego-Navidad/Juego-Navidad/Library/ScriptAssemblies/UnityEditor.UI.dll</HintPath>
- </Reference>
- <Reference Include="Cinemachine">
- <HintPath>S:/Cuarto semestre/ProyectoVideoJuego/Programacion/Proyecto-Juego-Navidad/Juego-Navidad/Library/ScriptAssemblies/Cinemachine.dll</HintPath>
- </Reference>
- <Reference Include="com.unity.cinemachine.editor">
- <HintPath>S:/Cuarto semestre/ProyectoVideoJuego/Programacion/Proyecto-Juego-Navidad/Juego-Navidad/Library/ScriptAssemblies/com.unity.cinemachine.editor.dll</HintPath>
  </Reference>
   </ItemGroup>
   <ItemGroup>
