@@ -117,8 +117,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 01c353686ef3f87448db207479f72732, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  visionRadius: 3
-  speed: 0.38
+  visionRadius: 4
+  speed: 4
   enemyBody: {fileID: 0}
 --- !u!50 &2405742766150088395
 Rigidbody2D:
