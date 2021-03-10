@@ -1,11 +1,12 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.UI;
 
-public class Buttons : MonoBehaviour
+public class UIButtons : MonoBehaviour
 {
     
-    public Buttons[] buttonArray;
+    public UIButtons[] buttonArray;
     public float coldTime;
 
     public void ColdTimer()
