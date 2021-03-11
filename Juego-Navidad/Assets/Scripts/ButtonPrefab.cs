@@ -1,6 +1,7 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.Audio;
 
 public class ButtonPrefab : MonoBehaviour
 {
@@ -14,7 +15,8 @@ public class ButtonPrefab : MonoBehaviour
     private ButtonsPool spawnQuantity;
     public bool scored;
     private Renderer render;
-
+    public AudioSource clip;
+    
     private void Awake()
     {
         rb2d = GetComponent<Rigidbody2D>();
@@ -40,6 +42,7 @@ public class ButtonPrefab : MonoBehaviour
         }
         if (clickable)
         {
+            
             //capturar posicion del botón
             target = transform.position;
             target.z = 0f;
@@ -47,6 +50,7 @@ public class ButtonPrefab : MonoBehaviour
             //capturar posicion del click
             if (Input.GetMouseButtonDown(0))
             {
+                clip.Play();
                 clicked = Camera.main.ScreenToWorldPoint(Input.mousePosition);
                 clicked.z = 0f;
                 //Calcular diferencia

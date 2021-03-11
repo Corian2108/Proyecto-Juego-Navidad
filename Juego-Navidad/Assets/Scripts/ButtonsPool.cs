@@ -10,7 +10,7 @@ public class ButtonsPool : MonoBehaviour
     public float buttonXMax = 16;
     private float spawnYPosition = 8.5f;
     private GameObject[] buttons;
-
+    
     private Vector2 buttonsSpawn = new Vector2 (0,-15);
     private float timeSinceLastSpawned;
     public float spawnRate;
