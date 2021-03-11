@@ -14,7 +14,8 @@ public class WeaponController : MonoBehaviour
         barraMunicion.fillAmount = municion / 100;
     }
 
-    public void disparo(float cantidad){
+    public void disparo(float cantidad)
+    {
         municion += cantidad;
     }
 }

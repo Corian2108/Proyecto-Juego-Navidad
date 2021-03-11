@@ -19,8 +19,7 @@ public class Monedas : MonoBehaviour
 			inventario.Cantidad= inventario.Cantidad + 2;
 			inventario.puntos.text ="Monedas:"+ inventario.Cantidad.ToString();
 			Destroy(gameObject);
-		}
-										//Destruimos el objeto
+        }
 	}
 
 }

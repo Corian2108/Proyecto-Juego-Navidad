@@ -7,18 +7,20 @@ public class Enemy : MonoBehaviour
 
     public float visionRadius;
     public float speed;
-    public float damage;
+    public float damage = -2.5f;
     public bool estaMuerto;
 
     Rigidbody2D enemyBody;
     GameObject player;
     Vector3 initialPosition;
     VidaJugador playerVida;
+    WeaponController palyerAttack;
 
     void Start()
     {
         player = GameObject.FindGameObjectWithTag("Player");
         playerVida = player.GetComponent<VidaJugador>();
+        palyerAttack = player.GetComponent<WeaponController>();
         enemyBody = GetComponent<Rigidbody2D>();
         initialPosition = transform.position;
     }
@@ -39,7 +41,7 @@ public class Enemy : MonoBehaviour
         float fixedSpeed = speed*Time.deltaTime;
         transform.position = Vector3.MoveTowards(transform.position, target, fixedSpeed);
 
-        if (estaMuerto)
+        if (estaMuerto == true)
         {
             gameObject.SetActive(false);
         }
@@ -54,8 +56,12 @@ public class Enemy : MonoBehaviour
 
     }
 
-    private void OnTriggerEnter2D(Collider2D other) {
-        Debug.Log(other.gameObject.name);
+    private void OnTriggerStay2D(Collider2D other) {
+
+        if (other.gameObject.name == "Player" && palyerAttack.municion != 100)
+        {
+            gameObject.SetActive(false);
+        }
     }
 
     private void OnDrawGizmos() 

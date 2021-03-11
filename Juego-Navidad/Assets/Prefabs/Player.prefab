@@ -17,6 +17,7 @@ GameObject:
   - component: {fileID: 5940268530444383971}
   - component: {fileID: 1992473969480472626}
   - component: {fileID: 1135296003395545197}
+  - component: {fileID: 7342021638818754278}
   m_Layer: 0
   m_Name: Player
   m_TagString: Player
@@ -205,3 +206,19 @@ CapsuleCollider2D:
   m_Offset: {x: 0.12495109, y: -0.010412216}
   m_Size: {x: 1.5850942, y: 3.7003722}
   m_Direction: 0
+--- !u!58 &7342021638818754278
+CircleCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5002132005910548593}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 11.193425, y: -0.51568633}
+  serializedVersion: 2
+  m_Radius: 2.69265

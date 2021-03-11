@@ -2945,7 +2945,6 @@ Transform:
   - {fileID: 1073598158}
   - {fileID: 772541156}
   - {fileID: 2001271689}
-  - {fileID: 1560759226}
   - {fileID: 1267698583}
   - {fileID: 450523690}
   - {fileID: 703799832}
@@ -13289,7 +13288,6 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 176681401}
-  - {fileID: 1545896950}
   - {fileID: 7901213}
   - {fileID: 144196162}
   - {fileID: 1157341001}
