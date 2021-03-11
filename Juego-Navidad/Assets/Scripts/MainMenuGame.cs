@@ -9,6 +9,11 @@ public class MainMenuGame : MonoBehaviour
         //Nombre del juego al iniciar
         SceneManager.LoadScene(escenaInicio);
     }
+    public void EscenaInstrucciones(string escenaInstrucciones)
+    {
+        //Nombre del juego al iniciar
+        SceneManager.LoadScene(escenaInstrucciones);
+    }
     public void EscenaOpcion()
     {
         SceneManager.LoadScene("Options");

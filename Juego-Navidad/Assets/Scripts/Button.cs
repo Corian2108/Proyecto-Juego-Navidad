@@ -1,11 +1,12 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.Audio;
 
 public class Button : MonoBehaviour
 {
     Player PlayerMove;
-    
+    public AudioSource clip;
 
     // Start is called before the first frame update
     void Start()
@@ -18,6 +19,7 @@ public class Button : MonoBehaviour
     {
         
     }
+    
 
     //Acción derecha
     public void derechaON()
@@ -63,6 +65,8 @@ public class Button : MonoBehaviour
 
     public void AtacarOn()
     {
+        clip.Play();
+
         float derechaX = 1;
         float izquierdaX = -1;
         float arribaY = 1;
