@@ -13,4 +13,8 @@ public class WeaponController : MonoBehaviour
         municion = Mathf.Clamp(municion, 0, 100);
         barraMunicion.fillAmount = municion / 100;
     }
+
+    public void disparo(float cantidad){
+        municion += cantidad;
+    }
 }

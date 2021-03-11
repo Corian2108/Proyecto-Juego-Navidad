@@ -5,18 +5,14 @@ using UnityEngine;
 public class Button : MonoBehaviour
 {
     Player PlayerMove;
+    WeaponController playerMunicion;
+    public float disparo = -2.5f;
     
 
-    // Start is called before the first frame update
     void Start()
     {
         PlayerMove = GameObject.FindObjectOfType<Player>();
-    }
-
-    // Update is called once per frame
-    void Update()
-    {
-        
+        playerMunicion = PlayerMove.GetComponent<WeaponController>();
     }
 
     //Acción derecha
@@ -67,10 +63,12 @@ public class Button : MonoBehaviour
         float izquierdaX = -1;
         float arribaY = 1;
         float abajoY = -1;
+        
+        playerMunicion.disparo(disparo);
+
         if (derechaX == 1)
         {
             PlayerMove.atomizador(derechaX);
-
         }
         if (izquierdaX == -1)
         {
@@ -94,24 +92,28 @@ public class Button : MonoBehaviour
         float abajoY = 0;
         if (derechaX == 0)
         {
-            
             PlayerMove.atomizador(derechaX);
         }
         if (izquierdaX == 0)
         {
-           
             PlayerMove.atomizador(izquierdaX);
         }
         if (arribaY == 0)
         {
-            
             PlayerMove.atomizador(arribaY);
         }
         if (abajoY == 0)
         {
-            
             PlayerMove.atomizador(abajoY);
         }
     }
 
+    private void Update() {
+
+        if( Input.GetKeyDown( KeyCode.Space ) )
+            AtacarOn();
+
+        if( Input.GetKeyUp( KeyCode.Space ) )
+            AtacarOff();
+    }
 }

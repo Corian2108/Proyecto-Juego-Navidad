@@ -13,4 +13,9 @@ public class VidaJugador : MonoBehaviour
         vida = Mathf.Clamp(vida, 0, 100);
         barraVida.fillAmount = vida / 100;
     }
+
+    public void damaged( float damage )
+    {
+        vida += damage;
+    }
 }

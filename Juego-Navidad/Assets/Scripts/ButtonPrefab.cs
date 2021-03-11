@@ -29,7 +29,7 @@ public class ButtonPrefab : MonoBehaviour
         spawnQuantity = GameObject.FindWithTag("GameController").GetComponent<ButtonsPool>();
         render = GetComponent<Renderer>();
     }
-    // Update is called once per frame
+  
     void Update()
     {
         rb2d.velocity = new Vector2(0, scrollSpeed);

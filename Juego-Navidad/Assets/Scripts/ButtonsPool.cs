@@ -17,8 +17,6 @@ public class ButtonsPool : MonoBehaviour
     private int currentButton;
     public float minimumSpawn = 1.5f;
 
-
-    // Start is called before the first frame update
     void Start()
     {
         buttons = new GameObject[buttonsPoolSize];
@@ -28,7 +26,6 @@ public class ButtonsPool : MonoBehaviour
         }
     }
 
-    // Update is called once per frame
     void Update()
     {
         timeSinceLastSpawned += Time.deltaTime;

@@ -10,7 +10,6 @@ public class Player : MonoBehaviour
     private Transform TheTransform = null;
     public float MaxSpeed = 4.0f;
     private float Vdirection = 0.0f;
-    //private float Hdirection = 0.0f;
     private float Xmovement = 0.0f;
     private float Ymovement = 0.0f;
     public SpriteRenderer spriteRenderer;
@@ -24,11 +23,6 @@ public class Player : MonoBehaviour
         TheTransform = GetComponent<Transform>();
         animator = GetComponent<Animator>();
         spriteRenderer = GetComponent<SpriteRenderer>();
-    }
-
-    public void Start()
-    {
-
     }
 
     void FixedUpdate()
@@ -193,11 +187,6 @@ public class Player : MonoBehaviour
         }
 
     }
-    private void Update()
-    {
-
-    }
-
 }
 
 

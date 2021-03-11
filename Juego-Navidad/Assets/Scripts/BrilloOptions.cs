@@ -9,7 +9,6 @@ public class BrilloOptions : MonoBehaviour
     public float sliderValue;
     public Image panelBrillo;
 
-    // Start is called before the first frame update
     void Start()
     {
         slider.value = PlayerPrefs.GetFloat("brillo", 0.5f);
