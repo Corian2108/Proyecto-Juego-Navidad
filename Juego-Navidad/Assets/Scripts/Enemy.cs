@@ -4,13 +4,11 @@ using UnityEngine;
 
 public class Enemy : MonoBehaviour
 {
-    LiveController vidaPlayer;
-
     public float visionRadius;
     public float speed;
-    public Rigidbody2D enemyBody;
+    public Rigidbody2D playerBody;
     public int damage;
-    public float damageatime;
+    public float damageaTime;
     float currentDamageTime;
 
     GameObject player;
@@ -30,10 +28,10 @@ public class Enemy : MonoBehaviour
         if(distance < visionRadius) 
         {
             target = player.transform.position;
-            enemyBody.bodyType = RigidbodyType2D.Dynamic;
+            playerBody.bodyType = RigidbodyType2D.Dynamic;
         } else {
             target = initialPosition;
-            enemyBody.bodyType = RigidbodyType2D.Kinematic;
+            playerBody.bodyType = RigidbodyType2D.Kinematic;
         }
 
         float fixedSpeed = speed*Time.deltaTime;

@@ -51,11 +51,11 @@
      <Compile Include="Assets\Scripts\ButtonsPool.cs" />
      <Compile Include="Assets\Scripts\Character.cs" />
      <Compile Include="Assets\Scripts\ClickZone.cs" />
+     <Compile Include="Assets\Scripts\DamagePlayer.cs" />
      <Compile Include="Assets\Scripts\DeadZone.cs" />
      <Compile Include="Assets\Scripts\Enemy.cs" />
      <Compile Include="Assets\Scripts\Game.cs" />
      <Compile Include="Assets\Scripts\LevelController.cs" />
-     <Compile Include="Assets\Scripts\LiveController.cs" />
      <Compile Include="Assets\Scripts\MainMenuGame.cs" />
      <Compile Include="Assets\Scripts\MiniGame.cs" />
      <Compile Include="Assets\Scripts\NpcEvent.cs" />
@@ -724,6 +724,9 @@
     <Reference Include="Unity.Timeline.Editor">
         <HintPath>C:/Users/Agustin Vaca/Documents/Documentos personales/Mio/Repositorios/Proyecto-Juego-Navidad/Juego-Navidad/Library/ScriptAssemblies/Unity.Timeline.Editor.dll</HintPath>
     </Reference>
+    <Reference Include="Cinemachine">
+        <HintPath>C:/Users/Agustin Vaca/Documents/Documentos personales/Mio/Repositorios/Proyecto-Juego-Navidad/Juego-Navidad/Library/ScriptAssemblies/Cinemachine.dll</HintPath>
+    </Reference>
     <Reference Include="Unity.VSCode.Editor">
         <HintPath>C:/Users/Agustin Vaca/Documents/Documentos personales/Mio/Repositorios/Proyecto-Juego-Navidad/Juego-Navidad/Library/ScriptAssemblies/Unity.VSCode.Editor.dll</HintPath>
     </Reference>
@@ -745,17 +748,14 @@
     <Reference Include="Unity.2D.Sprite.Editor">
         <HintPath>C:/Users/Agustin Vaca/Documents/Documentos personales/Mio/Repositorios/Proyecto-Juego-Navidad/Juego-Navidad/Library/ScriptAssemblies/Unity.2D.Sprite.Editor.dll</HintPath>
     </Reference>
+    <Reference Include="com.unity.cinemachine.editor">
+        <HintPath>C:/Users/Agustin Vaca/Documents/Documentos personales/Mio/Repositorios/Proyecto-Juego-Navidad/Juego-Navidad/Library/ScriptAssemblies/com.unity.cinemachine.editor.dll</HintPath>
+    </Reference>
     <Reference Include="Unity.TextMeshPro">
         <HintPath>C:/Users/Agustin Vaca/Documents/Documentos personales/Mio/Repositorios/Proyecto-Juego-Navidad/Juego-Navidad/Library/ScriptAssemblies/Unity.TextMeshPro.dll</HintPath>
     </Reference>
     <Reference Include="UnityEditor.UI">
         <HintPath>C:/Users/Agustin Vaca/Documents/Documentos personales/Mio/Repositorios/Proyecto-Juego-Navidad/Juego-Navidad/Library/ScriptAssemblies/UnityEditor.UI.dll</HintPath>
-    </Reference>
-    <Reference Include="Cinemachine">
-        <HintPath>C:/Users/Agustin Vaca/Documents/Documentos personales/Mio/Repositorios/Proyecto-Juego-Navidad/Juego-Navidad/Library/ScriptAssemblies/Cinemachine.dll</HintPath>
-    </Reference>
-    <Reference Include="com.unity.cinemachine.editor">
-        <HintPath>C:/Users/Agustin Vaca/Documents/Documentos personales/Mio/Repositorios/Proyecto-Juego-Navidad/Juego-Navidad/Library/ScriptAssemblies/com.unity.cinemachine.editor.dll</HintPath>
     </Reference>
   </ItemGroup>
   <ItemGroup>
