@@ -16,19 +16,17 @@ public class DialogueManager : MonoBehaviour
     public float typingSpeed;
 
     //buttons
-    //public GameObject botonQuitar;
+    
     public GameObject botonContinuar;
 
-    //AudioSource myAudio;
-    //public AudioClip speakSound;
+    
 
     // Start is called before the first frame update
     void Start()
     {
         sentences = new Queue<string>();
         botonContinuar.SetActive(false);
-        //botonQuitar.SetActive(false);
-        //myAudio = GetComponent<AudioSource>();
+        
     }
 
     void StartDialogue()
@@ -67,7 +65,7 @@ public class DialogueManager : MonoBehaviour
         foreach(char letter in sentence.ToCharArray())
         {
             displayText.text += letter;
-            //myAudio.PlayOneShot(speakSound);
+            
             yield return new WaitForSeconds(typingSpeed);
         }
     }
@@ -78,7 +76,6 @@ public class DialogueManager : MonoBehaviour
         {
             dialoguePanel.SetActive(true);
             botonContinuar.SetActive(true);
-            //botonQuitar.SetActive(false);
             StartDialogue();
         }
     }
@@ -107,7 +104,7 @@ public class DialogueManager : MonoBehaviour
         {
             dialoguePanel.SetActive(false);
             botonContinuar.SetActive(true);
-            //botonQuitar.SetActive(false);
+            
         }
     }
 }
