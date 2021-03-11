@@ -1,6 +1,7 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.Audio;
 
 public class ButtonPrefab : MonoBehaviour
 {
@@ -14,6 +15,7 @@ public class ButtonPrefab : MonoBehaviour
     private ButtonsPool spawnQuantity;
     public bool scored;
     private Renderer render;
+    //public AudioSource clip;
 
     private void Awake()
     {
@@ -68,6 +70,9 @@ public class ButtonPrefab : MonoBehaviour
             }
         }
     }
+    /*public void PlaySoundButton(){
+        clip.Play()
+    }*/
 
     private void OnDrawGizmos()
     {
