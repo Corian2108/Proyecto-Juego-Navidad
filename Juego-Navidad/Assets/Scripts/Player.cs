@@ -1,6 +1,7 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.SceneManagement;
 
 public class Player : MonoBehaviour
 {
@@ -16,6 +17,8 @@ public class Player : MonoBehaviour
     public Animator animator;
     public float x1 = 0.0f;
     public float y1 = 0.0f;
+    LevelController levelController;
+    Inventario monedas;
 
     void Awake()
     {
@@ -23,6 +26,8 @@ public class Player : MonoBehaviour
         TheTransform = GetComponent<Transform>();
         animator = GetComponent<Animator>();
         spriteRenderer = GetComponent<SpriteRenderer>();
+        levelController = GameObject.FindGameObjectWithTag("GameController").GetComponent<LevelController>();
+        monedas = GetComponent<Inventario>();
     }
 
     void FixedUpdate()
@@ -186,6 +191,21 @@ public class Player : MonoBehaviour
             animator.SetBool("WalkingBack", false);
         }
 
+    }
+
+    private void OnTriggerEnter2D(Collider2D other)
+    {
+        if (other.gameObject.name == "EnterMinigame")
+        {
+            levelController.levelPlus();
+            SceneManager.LoadScene("Minijuego");
+        }
+
+        if (other.gameObject.name == "NPC")
+        {
+            levelController.levelPlus();
+            monedas.Cantidad -= 20;
+        }
     }
 }
 

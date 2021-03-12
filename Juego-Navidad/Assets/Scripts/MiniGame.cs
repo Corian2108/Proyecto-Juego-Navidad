@@ -38,7 +38,7 @@ public class MiniGame : MonoBehaviour
             //Click para regresar al mundo
             if(winGame && Input.GetMouseButtonDown(0))
             {
-                SceneManager.LoadScene("MainScene");
+                SceneManager.LoadScene("Juego");
             }
         }
     }

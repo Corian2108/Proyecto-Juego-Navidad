@@ -14,4 +14,9 @@ public class LevelController : MonoBehaviour
         completado = Mathf.Clamp(completado, 0, 100);
         barraNivel.fillAmount = completado/100;
     }
+
+    public void levelPlus()
+    {
+        completado += 10;
+    }
 }
